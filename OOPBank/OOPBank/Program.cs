@@ -16,7 +16,7 @@ namespace OopBank {
             account.MakeDeposit(1000, DateTime.Now, "Take this money from Rene");
             Console.WriteLine($"Account {account.Number} was created by {account.Owner}, which now has {account.Balance}");
 
-            account.MakeWithdrawal(50, DateTime.Now, "Xbox Game Console");
+            account.MakeWithdrawal(500, DateTime.Now, "Xbox Game Console");
             Console.WriteLine($"\nAccount {account.Number} was created by {account.Owner}, which now has {account.Balance}");
 
             Console.WriteLine($"\n{account.GetAccountHistory()}");
